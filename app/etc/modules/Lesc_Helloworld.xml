@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lesc_HelloWorld><!-- Nombre de mi modulo -->
+            <active>true</active><!-- Modulo activo o inactivo -->
+            <codePool>local</codePool><!-- Indica que el modulo es para este sitio Si es una extension OpenSource se recomienda community -->
+        </Lesc_HelloWorld>
+    </modules>
+</config>

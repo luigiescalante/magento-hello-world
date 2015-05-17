@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules><!-- modulos -->
+        <Lesc_HelloWorld>
+            <version>0.1.0</version><!-- version de la extension, se debe actualizar cada cambio -->
+        </Lesc_HelloWorld>
+    </modules>
+    <frontend>
+        <routers><!-- Ruta (Url) que tomara la extension para entrar por browser -->
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Lesc_HelloWorld</module>
+                    <frontName>helloworld</frontName><!-- ruta del navegador -->
+                </args>
+            </helloworld>
+        </routers>
+        <layout><!-- Archivo de la vista -->
+            <updates>
+                <helloworld>
+                    <file>helloworld.xml</file>
+                </helloworld>
+            </updates>
+        </layout>
+    </frontend>
+</config>
